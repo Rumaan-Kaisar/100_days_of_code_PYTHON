@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+readme.rst
+setup.cfg
+setup.py
+colorgram/__init__.py
+colorgram/colorgram.py
+colorgram.py.egg-info/PKG-INFO
+colorgram.py.egg-info/SOURCES.txt
+colorgram.py.egg-info/dependency_links.txt
+colorgram.py.egg-info/requires.txt
+colorgram.py.egg-info/top_level.txt
