@@ -1,1 +1,181 @@
+Day - 6
+Reeborgs World
+Programming game
+
+
+
+
+6.4 Reeborg's World
+Reeborg's World is a free "Karel the robot" type of environment used to teach programming, using either Python or Javascript.
+	Exercise 6.1 Hurdles with constant-height
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+while not at_goal():
+    move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+
+
+	Exercise 6.2 Hurdles with constant-height and variable-distance
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
+
+
+	Exercise 6.3 Hurdles with height
+#<mycode>
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+def jump():
+    turn_right()
+    move()
+    turn_right()
+    move()
+    
+while not at_goal():
+    while wall_on_right() and wall_in_front:  
+            if wall_in_front():
+                turn_left()
+            elif wall_on_right:
+                if at_goal():
+                    done()
+                else:
+                    move()  
+    jump()
+
+
+#<angela's code>
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+def jump():
+    turn_left()
+    while wall_on_right():
+        move()
+    turn_right()
+    move()
+    turn_right()
+    while front_is_clear():
+        move()
+    turn_left()
+    
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
+	def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def up():
+    while wall_on_right():
+        move()
+
+def down():
+    while front_is_clear():
+        move()
+        
+def jump():
+    turn_left()
+    up()
+    turn_right()
+    move()
+    turn_right()
+    down()
+    turn_left()
+
+
+while not at_goal():
+    if wall_in_front():
+        jump()
+    else:
+        move()
+
+        	
+	Final Project : Escaping the Maze
+Algorithm: following the right edge of the wall. 
+def turn_right(): 
+    turn_left()
+    turn_left()
+    turn_left()
+
+    #<mycode>
+while not at_goal():
+    if wall_on_right():
+        if wall_in_front():
+            turn_left()
+        elif front_is_clear():
+            move()
+ 
+    else:
+        turn_right()
+        move()
+     
+        #<angela's code>
+def turn_right(): 
+    turn_left()
+    turn_left()
+    turn_left()
+
+while not at_goal():
+    if right_is_clear():
+        turn_right()
+        move()
+    elif front_is_clear():
+        move()
+    else:
+        turn_left()
+
+
+Special case: if frint and right is clear. Middle of space.
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+while front_is_clear():
+    move()
+
+turn_left()
+    
+while not at_goal():
+    if wall_on_right():
+        if wall_in_front():
+            turn_left()
+        else:
+            move()
+    else:
+        turn_right()
+        move()
 
