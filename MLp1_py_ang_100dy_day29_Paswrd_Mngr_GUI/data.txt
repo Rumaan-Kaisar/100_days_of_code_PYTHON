@@ -1,0 +1,41 @@
+
+{'web': qwerty,
+'usr' : example@site.com,
+'pw': rewq},
+{'web': qwerttyyt,
+'usr' : example@site.com,
+'pw': sdaa},
+{'web': fdghfhgj,
+'usr' : frerg@site.com,
+'pw': bvcvf},
+{'web': fdghfhgj,
+'usr' : frerg@site.com,
+'pw': bvcvf},
+{'web': fdghfhgj,
+'usr' : frerg@site.com,
+'pw': bvcvf},
+{'web': ewe,
+'usr' : example@site.com,
+'pw': ewgweg},
+{'web': wrfewfqe,
+'usr' : example@site.com,
+'pw': wfqwfgqg},
+{'web': efwgweg,
+'usr' : example@site.com,
+'pw': gewgwgwg},
+{'web': qwerty,
+'usr' : example@site.com,
+'pw': ytrewq},
+qwerty | example@site.com | qwwq
+qdwq | wdfqf | wfwegf
+efgwegwe | example@site.com | egwghhrth
+ggaa | example@site.com | aagg
+qwwd | example@site.com | dqwqw
+ecf | example@site.com | cev
+efwe | example@site.com | wgwr
+gwg | example@site.com | fwgw
+323 | example@site.com | 33333r
+egfwe | example@site.com | P99wVucIDd4%+l8xFR5u%M$zhm+o2u)DWD#N8s38N#)k2unuC4t4Y6!f#nwN)8P$#!*Y2Exeq14Lt8(D66Ao*9UZbWC79Yw*jz*uEpTNeW9Uw%6v&Oq3Mm)s+1zjeN&j52w
+efee | example@site.com | sUbKn5X!S7iN8n$
+wffgweg | example@site.com | 9&!&J5ZF5kfV+de
+eeve | example@site.com | u4*i4lvkG**in&H
